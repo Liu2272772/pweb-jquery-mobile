@@ -1,0 +1,10 @@
+.my-skill {
+    overflow-y: auto;
+}
+.my-skill h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.my-skill h4:first-child {
+    margin-top: 0;
+}

@@ -1,0 +1,16 @@
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.showMenu {
+    text-align: center;
+    padding: 50% 0;
+}
+.lis {
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+.lis h4{
+    margin: 0 !important;
+}

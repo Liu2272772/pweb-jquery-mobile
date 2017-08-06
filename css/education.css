@@ -1,0 +1,16 @@
+th{
+    width: 50px;
+    text-align: right;
+    padding: 5px 0;
+}
+td{
+    text-align: left;
+    padding: 5px 0;
+}
+
+table{
+    width: 100%;
+}
+.ui-content {
+    overflow-y: auto;
+}

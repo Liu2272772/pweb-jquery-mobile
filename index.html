@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div data-role="page" id="pageone">
+    <!--菜单层-->
+    <div data-role="panel" id="overlayPanel" data-display="overlay" data-swipe-close="true">
+        <h2>刘兆龙的简历</h2>
+        <form class="ui-filterable">
+            <input id="myFilter" data-type="search" placeholder="请输入信息">
+        </form>
+        <ul data-role="listview" data-filter="true" data-input="#myFilter" data-autodividers="false" data-inset="true">
+            <li><a href="web/baseInfo.html" target="_top" data-transition="fade">基本信息</a></li>
+            <li><a href="web/myskill.html" target="_top">技能信息</a></li>
+            <li><a href="web/achievement.html" target="_top">求学成果</a></li>
+            <li><a href="web/education.html" target="_top">教育信息</a></li>
+            <li><a href="web/work.html" target="_top">工作经历</a></li>
+            <li data-role="collapsible" class="lis">
+                <h4>项目信息</h4>
+                <ul data-role="listview">
+                    <li><a href="web/appProject.html" target="_top">应用项目</a></li>
+                    <li><a href="web/SRProject.html" target="_top">科研项目</a></li>
+                </ul>
+            </li>
+            <li><a href="web/personal.html" target="_top">个人评价</a></li>
+        </ul>
+    </div>
+
+    <div data-role="header" class="header">
+        <h1>刘兆龙的简历</h1>
+    </div>
+
+    <div data-role="main" class="ui-content showMenu" >
+        <h2>欢迎查看刘兆龙的简历</h2>
+        <a href="#overlayPanel" id="showMenuA" style="display:none;" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">覆盖面板</a>
+    </div>
+
+    <div data-role="footer" class="footer">
+        <h1>硕士学历，毕业于重庆邮电大学</h1>
+    </div>
+</div>
+</body>
+</html>
